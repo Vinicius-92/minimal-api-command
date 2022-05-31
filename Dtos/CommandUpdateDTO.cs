@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 public class CommandUpdateDTO
 {
     [Required]
-    public string? HotTo { get; set; }
+    public string? HowTo { get; set; }
     [Required]
     [MaxLength(5)]
     public string? Platform { get; set; }

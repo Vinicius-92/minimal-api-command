@@ -1,8 +1,8 @@
 public interface ICommandRepo
 {
-    Task SaveChanges();
-    Task<Command?> GetCommandById(int id);
-    Task<IEnumerable<Command>> GetAllCommands(int id);
-    Task CreateCommand(Command cmd);
-    void DeleteCommand(Command cmd);
+    Task SaveChangesAsync();
+    Task<Command?> GetCommandByIdAsync(int id);
+    Task<IEnumerable<Command>> GetAllCommandsAsync();
+    Task CreateCommandAsync(Command cmd);
+    void DeleteCommandAsync(Command cmd);
 }
